@@ -33,13 +33,13 @@ def sum_three_five(limit):
 
 def main():
     if len(sys.argv) < 2:
-        print "Usage: python problem_1.py <integer>"
+        print "Usage: python problem_001.py <integer>"
         return
 
     try:
         limit = int(sys.argv[1])
     except ValueError:
-        print "Usage: python problem_1.py <integer>"
+        print "Usage: python problem_001.py <integer>"
     else:
         sum_three_five(limit)
 

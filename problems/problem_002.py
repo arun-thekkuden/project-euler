@@ -28,7 +28,7 @@ def even_fibonacci_sum(max_limit, first=0, second=1):
 
 def main():
     if len(sys.argv) < 2:
-        print "Usage: python problem_2.py <positive_integer>"
+        print "Usage: python problem_002.py <positive_integer>"
         return
     try:
         max_limit = int(sys.argv[1])
@@ -36,7 +36,7 @@ def main():
             print 0
             return
     except ValueError:
-        print "Usage: python problem_2.py <positive_integer>"
+        print "Usage: python problem_002.py <positive_integer>"
     else:
         even_fibonacci_sum(max_limit)
         print sum
