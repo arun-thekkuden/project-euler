@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
-'''
+u"""
 The four adjacent digits in the 1000-digit number that have the greatest product are 9 × 9 × 8 × 9 = 5832.
+
     73167176531330624919225119674426574742355349194934
     96983520312774506326239578318016984801869478851843
     85861560789112949495459501737958331952853208805511
@@ -22,7 +23,7 @@ The four adjacent digits in the 1000-digit number that have the greatest product
     05886116467109405077541002256983155200055935729725
     71636269561882670428252483600823257530420752963450
 Find the thirteen adjacent digits in the 1000-digit number that have the greatest product. What is the value of this product?
-'''
+"""
 
 
 long_string = '''
@@ -48,6 +49,7 @@ long_string = '''
 71636269561882670428252483600823257530420752963450
 '''
 
+
 def parse_string():
     numbers_list = []
     for item in long_string:
@@ -57,19 +59,20 @@ def parse_string():
             pass
     return numbers_list
 
+
 def find_max(numbers_list):
     max = 0
     for i in range(0, 1000):
-        if len(numbers_list[i:i+13]) < 13:
+        if len(numbers_list[i:i + 13]) < 13:
             break
-        if 0 in numbers_list[i:i+13]:
+        if 0 in numbers_list[i:i + 13]:
             continue
-        current_val = reduce(lambda a, b: a*b, numbers_list[i:i+13])
+        current_val = reduce(lambda a, b: a * b, numbers_list[i:i + 13])
         if current_val > max:
             max = current_val
     print max
 
-if __name__ == "__main__":
-   numbers_list = parse_string()
-   find_max(numbers_list)
 
+if __name__ == "__main__":
+    numbers_list = parse_string()
+    find_max(numbers_list)

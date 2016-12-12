@@ -1,10 +1,10 @@
-'''
-https://projecteuler.net/problem=1
+"""
+https://projecteuler.net/problem=1 .
 
 If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
 
 Find the sum of all the multiples of 3 or 5 below 1000.
-'''
+"""
 
 import sys
 
@@ -18,7 +18,7 @@ def sum_three_five(limit):
         multiple_of_three = 3 * i
         multiple_of_five = 5 * i
         if not three_break:
-            if multiple_of_three >= limit: 
+            if multiple_of_three >= limit:
                 three_break = True
             else:
                 sum += multiple_of_three
