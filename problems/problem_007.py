@@ -20,30 +20,12 @@ def nth_prime_number(n):
 
 
 def is_prime(number):
+    if number == 2:
+        return True
     if number & 1 != 1:
         return False
-    for i in range(2, (number / 2)):
+    for i in range(2, int(sqrt(number)) + 1):
         if number % i == 0:
-            return False
-    return True
-
-
-# TODO - Not yet functional
-def is_prime_project_euler_solution(number):
-    if number == 1:
-        return False
-    elif number < 4:
-        return True
-    elif number & 1 != 1:
-        return False
-    elif number < 9:
-        return True
-    elif number % 3 == 0:
-        return False
-    for i in range(5, int(sqrt(number)), 6):
-        if number % i == 0:
-            return False
-        if number % (i + 2) == 0:
             return False
     return True
 
