@@ -7,16 +7,16 @@ import time
 
 
 def number_generator():
-    number = 10
+    number = 20
     while True:
         yield number
-        number += 10
+        number += 20
 
 
 def smallest_multiple():
     for i in number_generator():
         flag = True
-        for j in range(1, 11):
+        for j in range(1, 21):
             if i % j != 0:
                 flag = False
                 break
