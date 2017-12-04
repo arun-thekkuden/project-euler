@@ -2,7 +2,7 @@
 This repository contains problems that I solved on https://projecteuler.net/
 
 [Problem 1](https://projecteuler.net/problem=1) - Completed on Thu, 8 Dec 2016, 16:17  
-[Problem 2](https://projecteuler.net/problem=2) - Completed on Sun, 11 Dec 2016, 12:45 
+[Problem 2](https://projecteuler.net/problem=2) - Completed on Sun, 11 Dec 2016, 12:45  
 [Problem 4](https://projecteuler.net/problem=4) - Completed on Mon, 4 Dec 2017, 13:14  
 [Problem 5](https://projecteuler.net/problem=5) - Completed on Tue, 13 Dec 2016, 10:08  
 [Problem 6](https://projecteuler.net/problem=6) - Completed on Mon, 12 Dec 2016, 19:03  
