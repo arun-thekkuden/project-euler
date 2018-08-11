@@ -9,9 +9,10 @@ This repository contains problems that I solved on https://projecteuler.net/
 [Problem 6](https://projecteuler.net/problem=6) - Completed on Mon, 12 Dec 2016, 19:03  
 [Problem 7](https://projecteuler.net/problem=7) - Completed on Mon, 12 Dec 2016, 14:15  
 [Problem 8](https://projecteuler.net/problem=8) - Completed on Mon, 12 Dec 2016, 16:27  
+[Problem 9](https://projecteuler.net/problem=9) - Completed on Sat, 11 Aug 2018, 11:07  
 [Problem 10](https://projecteuler.net/problem=10) - Completed on Mon, 12 Dec 2016, 23:38  
-[Problem 11](https://projecteuler.net/problem=11) - Completed on Mon, 6 Aug 2018, 11:25    
-[Problem 12](https://projecteuler.net/problem=12) - Completed on Fri, 10 Aug 2018, 12:52    
+[Problem 11](https://projecteuler.net/problem=11) - Completed on Mon, 6 Aug 2018, 11:25  
+[Problem 12](https://projecteuler.net/problem=12) - Completed on Fri, 10 Aug 2018, 12:52  
 [Problem 13](https://projecteuler.net/problem=13) - Completed on Mon, 6 Aug 2018, 23:38  
 [Problem 16](https://projecteuler.net/problem=16) - Completed on Tue, 13 Dec 2016, 11:08  
 [Problem 17](https://projecteuler.net/problem=17) - Completed on Sat, 11 Aug 2018, 09:58  
@@ -19,3 +20,4 @@ This repository contains problems that I solved on https://projecteuler.net/
 [Problem 21](https://projecteuler.net/problem=21) - Completed on Mon, 6 Aug 2018, 15:52  
 [Problem 22](https://projecteuler.net/problem=22) - Completed on Mon, 6 Aug 2018, 16:31  
 [Problem 25](https://projecteuler.net/problem=25) - Completed on Sun, 11 Dec 2016, 23:37  
+
