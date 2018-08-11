@@ -14,6 +14,7 @@ This repository contains problems that I solved on https://projecteuler.net/
 [Problem 11](https://projecteuler.net/problem=11) - Completed on Mon, 6 Aug 2018, 11:25  
 [Problem 12](https://projecteuler.net/problem=12) - Completed on Fri, 10 Aug 2018, 12:52  
 [Problem 13](https://projecteuler.net/problem=13) - Completed on Mon, 6 Aug 2018, 23:38  
+[Problem 14](https://projecteuler.net/problem=14) - Completed on Sat, 11 Aug 2018, 12:24  
 [Problem 16](https://projecteuler.net/problem=16) - Completed on Tue, 13 Dec 2016, 11:08  
 [Problem 17](https://projecteuler.net/problem=17) - Completed on Sat, 11 Aug 2018, 09:58  
 [Problem 20](https://projecteuler.net/problem=20) - Completed on Tue, 13 Dec 2016, 11:17  
